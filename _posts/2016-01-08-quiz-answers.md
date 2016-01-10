@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The answers - Quiz about properties in Swift"
+title:  "The answers - Quizzes about properties in Swift"
 date:   2016-01-08
 categories: Swift
 banner_image: ""
