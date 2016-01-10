@@ -8,13 +8,13 @@ featured: false
 comments: true
 ---
 
-Come on, I know you guys love both Quiz and Swift. I bring you guys some quiz about properties in Swift, could you tell the answer without actually run it ?
+Come on, I know you guys love both Quiz and Swift. This post brings you some quizzes about properties in Swift, try to tell the answer without actually run it, could you get them all ? Just try it.
 
-The quiz may be easy for some of you, may be not. Most important, I hope you guys all **have fun** from it 🎉🎉🍻
+The quizzes may be easy for some of you, may be not. The most important thing here, I hope you guys all **have fun** from it, cheers 🎉🎉🍻
 
 <!--more-->
 
-You can find the answers and explications [HERE](http://www.allblue.me/swift/2016/01/08/quiz-answers)
+You can find the answers and some explications [HERE](http://www.allblue.me/swift/2016/01/08/quiz-answers)
 
 **Tested with Swift 2.1 & Xcode 7.2**
 
@@ -22,7 +22,8 @@ OK, here we go!
 
 ## Beginner quiz
 
-- What's the order of numbers will be printed in the output?
+### Quiz #1:
+What's the order of numbers will be printed in the output?
 
 ```swift
 class Property {
@@ -48,7 +49,8 @@ let property4 = PropertyQuiz().property4
 // => ?
 ```
 
-- What's the result in two different cases respectively?
+### Quiz #2:
+What's the result in two different cases respectively?
 
 ```swift
 class PropertyQuiz {
@@ -78,7 +80,8 @@ print(quiz.property)
 // (1, 2, 3, 4, 5, compiler error or runtime crash)
 ```
 
-- Respectively under these five cases, what's the result?
+### Quiz #3:
+Respectively under these five cases, what's the result?
 
 ```swift
 class PropertyQuiz {
@@ -133,7 +136,8 @@ print(quiz.property)
 // (1, 2, 3, compiler error or runtime crash)
 ```
 
-- Respectively under these four cases, what's the result?
+### Quiz #4:
+Respectively under these four cases, what's the result?
 
 ```swift
 class PropertyQuiz {
@@ -158,7 +162,8 @@ print(quiz.property2)
 
 ## Advanced quiz
 
-- Still remember Quiz #2? Now with inheritance, we actually added property observing to computed property, is there still the same result?
+### Quiz #5:
+Still remember Quiz #2? Now with inheritance, we actually added property observing to computed property, is there still the same result?
 
 ```swift
 class PropertyQuiz {
@@ -203,7 +208,8 @@ print(subQuiz.property)
 // (1, 2, 3, 4, 5, compiler error or runtime crash) ?
 ```
 
-- Compare with the Quiz #5, what if we do it vice versa? What's the result respectively in two cases?
+### Quiz #6:
+Compare with the Quiz #5, what if we do it vice versa? What's the result respectively in two cases?
 
 ```swift
 class PropertyQuiz {
