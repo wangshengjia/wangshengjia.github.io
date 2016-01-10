@@ -5,6 +5,7 @@ permalink: /contact/
 comments: false
 ---
 
+- Name: Victor Shengjia Wang
 - Work at: [Le Monde](www.lemonde.fr)
 - Live in: Paris
 - Email: wangshengjia01@gmail.com
