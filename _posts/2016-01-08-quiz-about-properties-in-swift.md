@@ -14,7 +14,7 @@ The quizzes may be easy for some of you, may be not. The most important thing he
 
 <!--more-->
 
-You can find the answers and some explications [HERE](http://www.allblue.me/swift/2016/01/08/quiz-answers)
+You can find the answers and some explanations [HERE](http://www.allblue.me/swift/2016/01/08/quiz-answers)
 
 **Tested with Swift 2.1 & Xcode 7.2**
 
@@ -23,7 +23,7 @@ OK, here we go!
 ## Beginner quiz
 
 ### Quiz #1:
-What's the order of numbers will be printed in the output?
+What will be printed in the output?
 
 ```swift
 class Property {
@@ -45,7 +45,10 @@ class PropertyQuiz {
         property2 = Property("2")
     }
 }
+// When
 let property4 = PropertyQuiz().property4
+
+// Then
 // => ?
 ```
 
