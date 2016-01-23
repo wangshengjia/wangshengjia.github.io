@@ -6,7 +6,7 @@ gems: 						[jekyll-paginate]
 title: 						"Victor S. Wang"
 email: 						"wangshengjia01@gmail.com"
 description: 		  "My Blog"
-baseurl: 					"http://allblue.me"
+baseurl: 					""
 homeurl: 					"http://allblue.me"
 logourl: 					"/assets/img/bloglogo.jpg"
 fa-logo: 					"fa-bookmark-o"
