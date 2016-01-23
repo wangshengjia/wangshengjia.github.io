@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Method dispatch in Swift with protocol, protocol-extension, extension and subclass"
+title:  "Method dispatch in Swift with protocol, protocol extension, extension and subclass"
 date:   2016-01-23
 categories: Swift
 banner_image: ""
@@ -8,9 +8,11 @@ featured: false
 comments: true
 ---
 
-The protocol extension introduced in Swift 2.0 is certainly a powerful tool, meanwhile things are also becoming more complex. __Alexandros Salazar__ have wrote a post ["The Ghost of Swift Bugs Future"](http://nomothetis.svbtle.com/the-ghost-of-swift-bugs-future) to discuss it. There is also a [Flow Diagram](https://d262ilb51hltx0.cloudfront.net/max/1600/1*SIcSsfmBCp4tNzLxGJAbdw.png) made by [Omar Abdelhafith](https://medium.com/@NSomar) which showing how the methods dispatch works in Swift.
+The protocol extension introduced in Swift 2.0 is certainly a powerful tool, meanwhile things are also becoming more complex. __Alexandros Salazar__ has wrote a post ["The Ghost of Swift Bugs Future"](http://nomothetis.svbtle.com/the-ghost-of-swift-bugs-future) to discuss it. There is also a [Flow Diagram](https://d262ilb51hltx0.cloudfront.net/max/1600/1*SIcSsfmBCp4tNzLxGJAbdw.png) made by [Omar Abdelhafith](https://medium.com/@NSomar) which showing how the methods dispatch works in Swift.
 
 In this post, I try to discover a little bit more in case there is an extension or a subclass.
+
+**Tested with Swift 2.1 & Xcode 7.2**
 
 First of all, let's replay the conclusion of Alexandros.
 
