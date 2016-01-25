@@ -12,6 +12,8 @@ As I wrote a post about [method dispatch in Swift](http://allblue.me/swift/2016/
 
 1. Override extension method behave weird. It seems that we can only override the methods in extension which is full compatible with Objective-C. Otherwise we'll have an compile error: **Declaration from extensions cannot be overridden yet**
 
+<!--more-->
+
 See the code below:
 - This works
 ```swift
