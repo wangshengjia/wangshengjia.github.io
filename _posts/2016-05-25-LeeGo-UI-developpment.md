@@ -62,7 +62,7 @@ let header = "header".build().bricks(title, avatar) {
 
 ```
 
-Remember, the brick is a pure value type object, you can either create it on site or create and keep it wherever you want on both main thread and background thread. Just treat it as your model object. And when we use it, we just pick up the right brick and configure the view as this brick.
+Remember, the brick is a pure value type object, you can create it on site. But the better way is to create and keep it from the very beginning on background thread. Just treat them as same as your model object. And whenever we need to configure a view, we just pick up the right brick and configure the view as this brick.
 
 ```
 // Configure your view
@@ -71,7 +71,7 @@ headerView.lg_configureAs(header)
 
 #### Use Brick to replace your custom UIView and Xib files 
 
-In the app of "Le Monde", a heavy content based app like NYT, do not have custom collection view cells and theirs IB files at all. Just because we isolate all UI logic out of cell by using brick, it allows us to have a cell totally generic for all different presentations.
+In the app of "Le Monde", a heavy content based app like NYT, do not have custom collection view cells and theirs IB files at all. Just because we isolated all UI logic out of cell by using brick, it allows us to have a cell totally generic. A standard `UICollectionViewCell` used for all different presentations.
 
 #### Put your whole UI into struct & enum
 
@@ -112,13 +112,13 @@ enum Twitter: BrickBuilderType {
 }
 ```
 
-4, Implement the concrete method which build different bricks based on different enum cases.
+4, Implement the concrete method which build and return the different brick instances based on different enum cases.
 
 Well I'm not going to paste the whole "stylesheet" here, there is nothing more complicated than a configuration file. You may checkout this entire [demo project on Github](https://github.com/wangshengjia/LeeGo) for the details.
 
 ## Backend driven native UI
 
-`Brick` is JSON convertible, every `Brick` instance can be turned into a JSON object and vice versa. Which means we can define and manipulate all bricks server side, powered the whole UI from JSON payload. Just treat your bricks like css.
+`Brick` is JSON convertible, every `Brick` instance can be turned into a JSON object and vice versa. Which means we can define and manipulate all bricks server side, powered the whole UI from JSON payload. Just treat your bricks like CSS, embed them with model object.
 
 ## Where to go from here
 
