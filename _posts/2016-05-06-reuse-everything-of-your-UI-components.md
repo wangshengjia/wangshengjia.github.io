@@ -67,4 +67,4 @@ It can also be the super complex unit, which composited by many different simple
 
 ## What's next ?
 
-As mentioned at the beginning, in [another post](), I'll present you how to do component driven UI in details with codes and examples with [LeeGo](github.com/wangshengjia/LeeGo).
+As mentioned at the beginning, in [another post](http://allblue.me/swift/2016/05/25/LeeGo-UI-developpment/), I'll present you how to do component driven UI in details with codes and examples with [LeeGo](github.com/wangshengjia/LeeGo).

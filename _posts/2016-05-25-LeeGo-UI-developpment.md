@@ -12,13 +12,17 @@ We all know that MVC pattern have some serious problems when dealing with a comp
 
 <!--more-->
 
-I think [the answer is NO](https://medium.com/@victor_wang/embrace-component-driven-ui-6405337189f5#.d3lwy7gsr), especially when we face a complex UI presentation and meanwhile we need our app to be full responsive.
+I think [the answer is NO](http://allblue.me/swift/2016/05/12/reuse-everything-of-your-UI-components/), especially when we face a complex UI presentation and meanwhile we need our app to be full responsive.
 
 ## LeeGo
 
-I've talked the idea on [dotSwift](http://dotpost.com/2016/01/victor-wang-build-ios-ui-in-the-way-of-lego-bricks) at Paris early this year. After working on it couple of month, I'm glad to introduce you [LeeGo](https://github.com/wangshengjia/LeeGo), the framework helps you to make UI development in a way declarative, configurable and highly reusable.
+I've talked the idea on [dotSwift](http://dotpost.com/2016/01/victor-wang-build-ios-ui-in-the-way-of-lego-bricks) at Paris early this year. After working on it by couple of month, I'm glad to introduce you [LeeGo](https://github.com/wangshengjia/LeeGo), the framework helps you to make UI development in a way declarative, configurable and highly reusable.
 <p align="center"><img src="/media/leego.png" width="600"/></p>
-Basically, it do only one thing: **Let you make UI development without UIView**. I've talked also once about [why this is important](https://medium.com/@victor_wang/embrace-component-driven-ui-6405337189f5#.d3lwy7gsr). Actually almost [all the benefits](https://github.com/wangshengjia/LeeGo) of LeeGo is based on this fact.
+Basically, it do only one thing: 
+
+**Let you make UI development without UIView**. 
+
+I've talked also once about [why this is important](http://allblue.me/swift/2016/05/12/reuse-everything-of-your-UI-components/). Actually almost [all the benefits](https://github.com/wangshengjia/LeeGo) of LeeGo are based on this fact.
 
 #### Prepare the whole UI during the compile-time 
 
@@ -58,7 +62,7 @@ let header = "header".build().bricks(title, avatar) {
 
 ```
 
-Remember, the brick is a pure value type object, you can either create it on site or create and keep it wherever you want on both main thread and background thread. Just treat it as your model object. And then, when we use it, we just pickup the right brick and configure the view as this brick.
+Remember, the brick is a pure value type object, you can either create it on site or create and keep it wherever you want on both main thread and background thread. Just treat it as your model object. And when we use it, we just pick up the right brick and configure the view as this brick.
 
 ```
 // Configure your view
@@ -67,7 +71,7 @@ headerView.lg_configureAs(header)
 
 #### Use Brick to replace your custom UIView and Xib files 
 
-In app of Le Monde, a heavy content based app like NYT, do not have custom collection view cells and theirs IB files at all. Just because we isolate all UI logic out of cell by using brick, it allows us to have a cell totally generic for all different presentations.
+In the app of "Le Monde", a heavy content based app like NYT, do not have custom collection view cells and theirs IB files at all. Just because we isolate all UI logic out of cell by using brick, it allows us to have a cell totally generic for all different presentations.
 
 #### Put your whole UI into struct & enum
 
@@ -118,11 +122,11 @@ Well I'm not going to paste the whole "stylesheet" here, there is nothing more c
 
 ## Where to go from here
 
-Please checkout [LeeGo on Github](https://github.com/wangshengjia/LeeGo), try the demo project. Begin to think how your project can benefit from LeeGo which design to be UIKit friendly and non-intrusive at all. So it's totally smooth to begin with integrating only a small part, also free to drop all without any side effect.
+Please checkout [LeeGo on Github](https://github.com/wangshengjia/LeeGo), try the demo project. Begin to think how your project can benefit from LeeGo, it's totally smooth to begin with integrating only a small part, also free to drop all without any side effect since LeeGo is designed to be UIKit friendly and non-intrusive at all.
 
-If you have any suggestion or question, please fire an issue or directly ping me on [Twitter](twitter.com/wangshengjia)
+If you have any suggestion or question, please fire an issue on Github or directly ping me on [Twitter](twitter.com/wangshengjia) by @wangshengjia
 
-Enjoy.
+Enjoy. 🎉🎉
 
 
 
