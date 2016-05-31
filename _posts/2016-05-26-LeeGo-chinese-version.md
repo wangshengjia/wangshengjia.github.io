@@ -9,7 +9,9 @@ comments: true
 ---
 
 之前分享过一次 [LeeGo](github.com/wangshengjia/LeeGo)，有同学说不是很明白什么时候用，以及具体有什么好处。我觉得有必要再安利一次，好处往简单了说就一句话，可以让大家「脱离 UIView 做 UI 开发」。还写过[另一篇文章](http://allblue.me/swift/2016/05/12/reuse-everything-of-your-UI-components/)讨论过为什么。其他的诸如声明式，高可用性UI，可服务器端远程更新等等一切好处其实都或多或少是源于这一条。
+
 <!--more-->
+
 我们大家都知道 MVC 模式确实存在很多问题，尤其是在面对一个UI相对复杂的项目时。不过好在我们也有很多办法去改善这些问题，大部分都是针对`Controller`那部分的，比如 MVP，MVSM，MVVM 或者 VIPER之类的，但我们很少看到有什么东西是针对`View`这部分的。确实相对于`Controller`，`View`的部分相对要简单不少，很多时候比较直白。但当我们面对一个相对复杂的视图混杂着不同的业务逻辑和不同的响应式布局时，越来越多的各种自定义视图和IB文件，常常会让项目变得不可维护。
 
 ## [LeeGo](github.com/wangshengjia/LeeGo)
