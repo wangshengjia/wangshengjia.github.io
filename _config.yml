@@ -46,7 +46,7 @@ sass:
 # Build Settings
 permalink: 					pretty
 
-markdown: redcarpet
+# markdown: redcarpet
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
 redcarpet:
