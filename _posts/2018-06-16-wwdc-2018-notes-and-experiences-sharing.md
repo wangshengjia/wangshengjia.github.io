@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "WWDC 2018 的流水账分享"
+date:   2018-06-16
+categories: WWDC
+banner_image: ""
+featured: false
+comments: true
+---
+
 # WWDC 2018 的流水账分享
 
 又是一年的 WWDC，上次去还是在2016年，主场地在SF而不是San Jose。总体感觉这次的体验好了不少。其中一个原因是天气，很难想象就一个小时车程的两个地方天气怎么能差这么多，SF 的温度要低 5-10 度不说，还老是阴雨。San Jose 则感觉永远是大太阳，温度也很合适，简直完美。
