@@ -55,6 +55,6 @@ Keynote 发布的更新估计大家都已经很了解了，网上都有很多详
 5. Bash。比 2016 年的时候在室内场馆好太多了，气氛很不错，大家都玩的很嗨，Craig 现身说了一堆冷笑话然后请出了今年的表演嘉宾 Panic At The Disco!
 6. 勇士。正好是 NBA 总决赛期间，正好是勇士，周五飞回来的时候正好是最后一场，气氛很不错。
 
-<p align="center"><img src="/media/bash.jpg" width="300"/><img src="/media/craig.jpg" width="300"/><img src="/media/warrior.jpg" width="300"/></p>
+<p align="center"><img src="/media/bash.jpg" width="200"/><img src="/media/craig.jpg" width="200"/><img src="/media/warrior.jpg" width="200"/></p>
 
 
