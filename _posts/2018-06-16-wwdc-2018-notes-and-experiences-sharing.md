@@ -18,7 +18,7 @@ comments: true
 
 发布会的前一天要先去领 Badge。外套每年都会不太一样，今年是 Levis 的夹克衫，和去年似乎是同款（不太是我的风格，这可能是我人生中的第一件牛仔夹克吧）。除此之外，给 Badge 的时候会给些小礼品，比如徽章，许多特别的徽章需要在会场参加活动得到，估计这激起了许多人收集癖，有点玩游戏的感觉。
 
-<p align="center"><img src="/media/get-badge.jpg" width="300"/></p>
+<p align="center"><img src="/media/wwdc2018.jpg" width="300"/></p>
 
 发布会当天的临晨三点就起床了，四点赶到会场开始排队等 keynote。怎么说呢，一般来说四点之前到基本可以保证比较靠前的位置。当然这也不是必要的，大可以晚些时候来看大屏幕。我个人是觉得既然都千里迢迢来到了现场，不直接看舞台总觉得亏了。另一个原因是排队的几个小时可以和周围的人聊天，通常都会碰到来自不同国家团队的人，可以了解很多有意思的东西。这次排队就遇上了阿里和腾讯的小伙伴，聊的也是很开心的。
 
@@ -55,6 +55,6 @@ Keynote 发布的更新估计大家都已经很了解了，网上都有很多详
 5. Bash。比 2016 年的时候在室内场馆好太多了，气氛很不错，大家都玩的很嗨，Craig 现身说了一堆冷笑话然后请出了今年的表演嘉宾 Panic At The Disco!
 6. 勇士。正好是 NBA 总决赛期间，正好是勇士，周五飞回来的时候正好是最后一场，气氛很不错。
 
-<p align="center"><img src="/media/bash.jpg" width="200"/><img src="/media/craig.jpg" width="200"/><img src="/media/warrior.jpg" width="200"/></p>
+<p align="center"><img src="/media/bash.jpg" width="200"/> <img src="/media/craig.jpg" width="200"/> <img src="/media/warriors.jpg" width="200"/></p>
 
 
