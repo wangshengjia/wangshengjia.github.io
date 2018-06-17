@@ -6,8 +6,8 @@ comments: false
 ---
 
 - Name: Victor Shengjia Wang
-- Work at: [Le Monde](www.lemonde.fr)
-- Live in: Paris
+- Work at: [Citymapper](www.citymapper.com)
+- Live in: London
 - Email: wangshengjia01@gmail.com
 
 - Twitter: [twitter.com/wangshengjia](twitter.com/wangshengjia)
